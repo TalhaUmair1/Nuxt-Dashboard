@@ -1,3 +1,9 @@
 <template>
-  <h2>hello</h2>
+  <UApp>
+    <NuxtLoadingIndicator />
+
+    <NuxtLayout>
+      <NuxtPage />
+    </NuxtLayout>
+  </UApp>
 </template>
