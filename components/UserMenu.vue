@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import type { DropdownMenuItem } from '@nuxt/ui'
 
+defineProps<{
+    collapsed?: boolean
+}>()
 
 
 const colorMode = useColorMode()

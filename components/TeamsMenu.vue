@@ -1,5 +1,8 @@
 <script setup lang="ts">
 
+defineProps<{
+    collapsed?: boolean
+}>()
 
 const teams = ref([{
     label: 'Nuxt',
